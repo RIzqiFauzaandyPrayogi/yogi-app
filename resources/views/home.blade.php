@@ -8,7 +8,7 @@
 </div>
 	<div class="menu">
 		<div id="heading">
-            <a href="#">PTW</a>
+            <a href="#">Pengembangan Teknologi Web</a>
         </div>
 		<ul id="navigasi">
 			<li><a href="home">Home</a></li>
