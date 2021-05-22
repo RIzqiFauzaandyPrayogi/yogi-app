@@ -1,58 +1,28 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Membuat Halaman Web Dinamis Dengan PHP | www.malasngoding.com</title>
-	<!-- menghubungkan dengan file css -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- menghubungkan dengan file jquery -->
-	<script type="text/javascript" src="jquery.js"></script>
-</head>
+	<head>
+ 		<title>Tugas 3</title>
+ 		<link rel="stylesheet" type="text/css" href="{{asset('dist/style.css')}}">
+	</head>
 <body>
-<!-- 
-Author : diki alfarabi hadi 
-Site : www.malasngoding.com
--->
-<div class="content">
-	<header>
-		<h1 class="judul">WWW.MALASNGODING.COM</h1>
-		<h3 class="deskripsi">Membuat Halaman Web Dinamis Dengan PHP</h3>
-	</header>
- 
+</div>
 	<div class="menu">
-		<ul>
-			<li><a href="index.php?page=home">HOME</a></li>
-			<li><a href="index.php?page=tentang">TENTANG</a></li>
-			<li><a href="index.php?page=tutorial">TUTORIAL</a></li>
+		<div id="heading">
+            <a href="#">PTW</a>
+        </div>
+		<ul id="navigasi">
+			<li><a href="home">Home</a></li>
+ 			<li><a href="aboutme">Tentang Saya</a></li>
+ 			<li><a href="artikel">Artikel</a>
+ 			</li>
 		</ul>
 	</div>
- 
-	<div class="badan">
- 
- 
-	<?php 
-	if(isset($_GET['page'])){
-		$page = $_GET['page'];
- 
-		switch ($page) {
-			case 'home':
-				include "halaman/home.php";
-				break;
-			case 'tentang':
-				include "halaman/tentang.php";
-				break;
-			case 'tutorial':
-				include "halaman/tutorial.php";
-				break;			
-			default:
-				echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
-				break;
-		}
-	}else{
-		include "halaman/home.php";
-	}
- 
-	 ?>
- 
+
+	<div class="content">
+	<h1>Hello World</h1>
 	</div>
-</div>
+	<div class="footer">
+		<center>Copyright &copy; 2021 - <a href="facebook.com/lavonte12">Rifqi</a></center>
+	</div>
 </body>
 </html>
