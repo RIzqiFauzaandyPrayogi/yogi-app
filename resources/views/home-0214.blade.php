@@ -1,16 +1,13 @@
-<!DOCTYPE html>
+<html>
 <html>
 <head>
-<title>
+<title>Yogi Web
 </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
-h1{font-family:Arial, sans-serif;color:#000000;background-color:#ffffff;}
-p {font-family:Georgia, serif;font-size:25px;font-style:normal;font-weight:normal;color:#000000;background-color:#ffffff;}
-</style>
 </head>
 <body>
+<a href=home>Home</a>
+<a href=artikel>Artikel</a>
+<a href=contact>Contact</a>
 <h1></h1>
 <p>Hello Welcome to My Web</p>
 <p> </p>
